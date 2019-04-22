@@ -1,0 +1,18 @@
+/*
+Theme Name: equerma
+Theme URI:		https://woocommerce.com/products/pharmacy/
+Description:	Pharmacy is a Storefront child theme. As a Storefront child theme, Pharmacy benefits from all of the tasty WooCommerce integration features that Storefront provides.
+Author:			WooCommerce
+Author URI:		https://woocommerce.com
+Template:		storefront
+Version:		2.0.13
+License:		GNU General Public License v2 or later
+License URI:	http://www.gnu.org/licenses/gpl-2.0.html
+Tags:			light, green, two-columns, right-sidebar, left-sidebar, responsive-layout, accessibility-ready
+Text Domain: testednutrients
+*/
+/* =Pharmacy styles starts here
+-------------------------------------------------------------- */
+.site-branding .site-title a {
+    color: red;
+}

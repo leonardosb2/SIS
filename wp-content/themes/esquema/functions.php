@@ -15,7 +15,8 @@ add_action( 'wp_enqueue_scripts', 'enqueue_styles_child_theme' );
 add_action( 'get_header', 'bbloomer_remove_storefront_sidebar' );
  
 function bbloomer_remove_storefront_sidebar() {
-   if ( is_product() ) {
-      remove_action( 'storefront_sidebar', 'storefront_get_sidebar', 10 );
-   }
+    if ( is_product() ) {
+        remove_action( 'storefront_sidebar', 'storefront_get_sidebar', 10 );
+    }
+    remove_action( 'storefront_sidebar', 'storefront_get_sidebar', 10 );
 }

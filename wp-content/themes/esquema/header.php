@@ -47,7 +47,17 @@
 		?>
 
 	</header><!-- #masthead -->
-
+	<div class="hero-main">
+		<div class="wrap">
+			<div class="header-section">
+				<h2>Lorem Ipsum </h2>
+				<h4>The Millennial Persona Subtitle</h4>
+			</div>
+			<div class="img-item"></div>
+			<div class="img-item"></div>
+			<div class="img-item"></div>
+		</div>
+	</div>
 	<?php
 	/**
 	 * Functions hooked in to storefront_before_content

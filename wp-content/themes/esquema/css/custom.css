@@ -1,5 +1,15 @@
-.wrap{
+.wrap {
     max-width: 1200px;
     margin: auto;
-    
+}
+
+.hero-main {
+    background: url(../image/hero_bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-navigation ul.menu>li>a,
+.main-navigation ul.nav-menu>li>a {
+    font-weight: 800;
 }

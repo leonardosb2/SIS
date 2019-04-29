@@ -2,11 +2,40 @@
     max-width: 1200px;
     margin: auto;
 }
-
+.col-full{
+    max-width: 1200px;
+}
+/* Header */
+#masthead{
+    position: absolute;
+    width: 100%;
+    background: transparent;
+}
+.main-navigation ul li a{
+    color: white;
+}
+.site-header-cart .cart-contents .amount{
+    color: white;
+}
+.site-search .widget_product_search input[type=search]{
+    padding: 1em 1.41575em;
+    line-height: 1;
+    background: transparent;
+    border: 1px white solid;
+    border-radius: 21px;
+}
+p.site-description, .site-header, .storefront-handheld-footer-bar,.site-header-cart .cart-contents .count{
+    color: white;
+}
+/* Section hero */
+.header-section h2,.header-section h4{
+    color: white;
+}
 .hero-main {
     background: url(../image/hero_bg.png);
     background-position: center;
     background-size: cover;
+    padding: 263px 10px 20px;
 }
 
 .main-navigation ul.menu>li>a,
